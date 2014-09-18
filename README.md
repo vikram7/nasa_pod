@@ -2,7 +2,7 @@ This is a small script to update your Mac OSX background as the latest NASA astr
 
 http://apod.nasa.gov/apod/astropix.html
 
-to run this script for the first time, follow the commands below:
+to run this script for the first time, follow the commands below in your terminal:
 
 1. git clone git@github.com:vikram7/nasa_pod.git
 2. cd nasa_pod
