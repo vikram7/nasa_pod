@@ -10,6 +10,7 @@ to run this script for the first time, follow the commands below:
 4. squeal in joy at the Universe
 
 on subsequent days, follow the commands below once you're in the nasa_pod directory:
+
 1. ruby apod_fetch.rb
 2. squeal in joy at the Universe
 
