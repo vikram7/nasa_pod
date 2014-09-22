@@ -15,5 +15,7 @@ on subsequent days, follow the commands below once you're in the nasa_pod direct
 2. squeal in joy at the Universe
 
 Todos
--  image fetched should be saved to temp location
--  add ability to have the photo automatically update without having to run script
+- image fetched should be saved to temp location
+- add ability to have the photo automatically update without having to run script
+- update applescripts with fixed file names per Dan's suggestion
+- occasionally nasa site will have a video (which is a different selector and results in a nil that attr tries to access). need to allow for this.
