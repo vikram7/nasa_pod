@@ -1,11 +1,11 @@
 require 'open-uri'
 require 'nokogiri'
 
-def image_url(page_url = 'http://apod.nasa.gov/apod/astropix.html')
+def image_url(page_url = 'https://apod.nasa.gov/apod/astropix.html')
   html = open(page_url)
   doc = Nokogiri::HTML(html)
-  src = doc.css('img').first.attr('src')
-  "http://apod.nasa.gov/apod/#{src}"
+  src = doc.css('a')[1].attr('href')
+  "https://apod.nasa.gov/apod/#{src}"
 end
 
 `curl #{image_url} > apod_daily_image.jpg`
